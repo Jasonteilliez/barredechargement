@@ -1,0 +1,16 @@
+main {
+  width: 80%;
+  margin: auto;
+}
+progress {
+  appearance: none;
+  width: 500px;
+  height: 25px;
+  border: solid 1px;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
