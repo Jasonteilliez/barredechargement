@@ -26,8 +26,9 @@ class BarreChargement {
   increment() {
     if (this.target.value >= this.max) {
       this.stop();
+    } else {
+      this.target.value += 1;
     }
-    this.target.value += 1;
   }
 
   getTop() {
