@@ -1,16 +1,16 @@
-barrehtml = new BarreChargement({
+const barrehtml = new BarreChargement({
   target: document.getElementById("html"),
   max: 50,
 });
-barrecss = new BarreChargement({
+const barrecss = new BarreChargement({
   target: document.getElementById("css"),
   max: 20,
 });
-barrejs = new BarreChargement({
+const barrejs = new BarreChargement({
   target: document.getElementById("js"),
   max: 30,
 });
-barrephp = new BarreChargement({
+const barrephp = new BarreChargement({
   target: document.getElementById("php"),
   max: 70,
 });

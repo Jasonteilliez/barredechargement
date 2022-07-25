@@ -19,11 +19,7 @@ class BarreChargement {
   }
 
   reset() {
-    if (this.interval) {
-      clearInterval(this.interval);
-      this.interval = undefined;
-    }
-
+    this.stop();
     this.target.value = 0;
   }
 
