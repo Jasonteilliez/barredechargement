@@ -39,12 +39,14 @@ class BarreChargement {
   }
 
   update() {
+    // start condition
     if (
       this.getTop() - window.innerHeight + 100 < 0 &&
       this.target.value == 0
     ) {
       this.start();
     }
+    // reset condition
     if (this.getTop() - window.innerHeight > 50 && this.target.value != 0) {
       this.reset();
     }
