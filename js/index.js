@@ -1,10 +1,10 @@
 const barrehtml = new BarreChargement({
   target: document.getElementById("html"),
-  max: 50,
+  max: 80,
 });
 const barrecss = new BarreChargement({
   target: document.getElementById("css"),
-  max: 20,
+  max: 80,
 });
 const barrejs = new BarreChargement({
   target: document.getElementById("js"),
@@ -12,7 +12,7 @@ const barrejs = new BarreChargement({
 });
 const barrephp = new BarreChargement({
   target: document.getElementById("php"),
-  max: 70,
+  max: 50,
 });
 
 document.addEventListener("scroll", () => {
